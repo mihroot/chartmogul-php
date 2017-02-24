@@ -9,7 +9,9 @@ trait EntryTrait
 
     protected $entries = [];
 
-    protected abstract static function getEntryClass();
+    protected static function getEntryClass(){
+        
+    }
 
     protected function setEntries(array $entries = [])
     {
